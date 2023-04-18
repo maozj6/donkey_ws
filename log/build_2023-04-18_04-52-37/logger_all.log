@@ -1,0 +1,127 @@
+[1.603s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.603s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb50d36d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb50d36d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb50d3c10>)
+[1.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.806s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/donkey_ws'
+[1.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/donkey_project) by extensions ['ignore', 'ignore_ament_install']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/donkey_project) by extension 'ignore'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/donkey_project) by extension 'ignore_ament_install'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/donkey_project) by extensions ['colcon_pkg']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/donkey_project) by extension 'colcon_pkg'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/donkey_project) by extensions ['colcon_meta']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/donkey_project) by extension 'colcon_meta'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/donkey_project) by extensions ['ros']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/donkey_project) by extension 'ros'
+[1.898s] DEBUG:colcon.colcon_core.package_identification:Package 'src/donkey_project' with type 'ros.ament_python' and name 'donkey_project'
+[1.898s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.898s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.898s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.042s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jetson/donkey_ws/install
+[2.051s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[2.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.396s] Level 5:colcon.colcon_core.verb:set package 'donkey_project' build argument 'cmake_args' from command line to 'None'
+[2.397s] Level 5:colcon.colcon_core.verb:set package 'donkey_project' build argument 'cmake_target' from command line to 'None'
+[2.397s] Level 5:colcon.colcon_core.verb:set package 'donkey_project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.397s] Level 5:colcon.colcon_core.verb:set package 'donkey_project' build argument 'cmake_clean_cache' from command line to 'False'
+[2.397s] Level 5:colcon.colcon_core.verb:set package 'donkey_project' build argument 'cmake_clean_first' from command line to 'False'
+[2.397s] Level 5:colcon.colcon_core.verb:set package 'donkey_project' build argument 'cmake_force_configure' from command line to 'False'
+[2.397s] Level 5:colcon.colcon_core.verb:set package 'donkey_project' build argument 'ament_cmake_args' from command line to 'None'
+[2.397s] Level 5:colcon.colcon_core.verb:set package 'donkey_project' build argument 'catkin_cmake_args' from command line to 'None'
+[2.397s] Level 5:colcon.colcon_core.verb:set package 'donkey_project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.398s] DEBUG:colcon.colcon_core.verb:Building package 'donkey_project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/donkey_ws/build/donkey_project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/donkey_ws/install/donkey_project', 'merge_install': False, 'path': '/home/jetson/donkey_ws/src/donkey_project', 'symlink_install': False, 'test_result_base': None}
+[2.401s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.424s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/donkey_ws/src/donkey_project' with build type 'ament_python'
+[2.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('donkey_project', 'ament_prefix_path')
+[2.454s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/donkey_ws/install/donkey_project/share/donkey_project/hook/ament_prefix_path.ps1'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/donkey_ws/install/donkey_project/share/donkey_project/hook/ament_prefix_path.dsv'
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/donkey_ws/install/donkey_project/share/donkey_project/hook/ament_prefix_path.sh'
+[2.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.712s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/donkey_ws/src/donkey_project'
+[3.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/donkey_ws/src/donkey_project': PYTHONPATH=/home/jetson/donkey_ws/build/donkey_project/prefix_override:/home/jetson/donkey_ws/install/donkey_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/donkey_project build --build-base /home/jetson/donkey_ws/build/donkey_project/build install --record /home/jetson/donkey_ws/build/donkey_project/install.log --install-scripts $base/lib/donkey_project --single-version-externally-managed
+[6.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/donkey_ws/src/donkey_project' returned '0': PYTHONPATH=/home/jetson/donkey_ws/build/donkey_project/prefix_override:/home/jetson/donkey_ws/install/donkey_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/donkey_project build --build-base /home/jetson/donkey_ws/build/donkey_project/build install --record /home/jetson/donkey_ws/build/donkey_project/install.log --install-scripts $base/lib/donkey_project --single-version-externally-managed
+[6.876s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/donkey_ws/install/donkey_project' for CMake module files
+[6.878s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/donkey_ws/install/donkey_project' for CMake config files
+[6.881s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/donkey_ws/install/donkey_project/lib'
+[6.882s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/donkey_ws/install/donkey_project/bin'
+[6.882s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/donkey_ws/install/donkey_project/lib/pkgconfig/donkey_project.pc'
+[6.883s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/donkey_ws/install/donkey_project/lib/python3.8/site-packages'
+[6.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('donkey_project', 'pythonpath')
+[6.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/donkey_ws/install/donkey_project/share/donkey_project/hook/pythonpath.ps1'
+[6.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/donkey_ws/install/donkey_project/share/donkey_project/hook/pythonpath.dsv'
+[6.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/donkey_ws/install/donkey_project/share/donkey_project/hook/pythonpath.sh'
+[6.899s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/donkey_ws/install/donkey_project/bin'
+[6.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(donkey_project)
+[6.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/donkey_ws/install/donkey_project/share/donkey_project/package.ps1'
+[6.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/donkey_ws/install/donkey_project/share/donkey_project/package.dsv'
+[6.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/donkey_ws/install/donkey_project/share/donkey_project/package.sh'
+[6.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/donkey_ws/install/donkey_project/share/donkey_project/package.bash'
+[6.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/donkey_ws/install/donkey_project/share/donkey_project/package.zsh'
+[6.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/donkey_ws/install/donkey_project/share/colcon-core/packages/donkey_project)
+[6.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.935s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.959s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.959s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.960s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.015s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.024s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/donkey_ws/install/local_setup.ps1'
+[7.030s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/donkey_ws/install/_local_setup_util_ps1.py'
+[7.038s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/donkey_ws/install/setup.ps1'
+[7.045s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/donkey_ws/install/local_setup.sh'
+[7.049s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/donkey_ws/install/_local_setup_util_sh.py'
+[7.051s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/donkey_ws/install/setup.sh'
+[7.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/donkey_ws/install/local_setup.bash'
+[7.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/donkey_ws/install/setup.bash'
+[7.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/donkey_ws/install/local_setup.zsh'
+[7.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/donkey_ws/install/setup.zsh'

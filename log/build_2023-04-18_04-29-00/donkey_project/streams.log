@@ -1,0 +1,26 @@
+[3.019s] Invoking command in '/home/jetson/donkey_ws/src/donkey_project': PYTHONPATH=/home/jetson/donkey_ws/build/donkey_project/prefix_override:/home/jetson/donkey_ws/install/donkey_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/donkey_project build --build-base /home/jetson/donkey_ws/build/donkey_project/build install --record /home/jetson/donkey_ws/build/donkey_project/install.log --install-scripts $base/lib/donkey_project --single-version-externally-managed
+[4.024s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.025s]   warnings.warn(
+[4.157s] running egg_info
+[4.160s] writing ../../build/donkey_project/donkey_project.egg-info/PKG-INFO
+[4.161s] writing dependency_links to ../../build/donkey_project/donkey_project.egg-info/dependency_links.txt
+[4.162s] writing entry points to ../../build/donkey_project/donkey_project.egg-info/entry_points.txt
+[4.162s] writing requirements to ../../build/donkey_project/donkey_project.egg-info/requires.txt
+[4.163s] writing top-level names to ../../build/donkey_project/donkey_project.egg-info/top_level.txt
+[4.174s] reading manifest file '../../build/donkey_project/donkey_project.egg-info/SOURCES.txt'
+[4.178s] writing manifest file '../../build/donkey_project/donkey_project.egg-info/SOURCES.txt'
+[4.178s] running build
+[4.178s] running build_py
+[4.179s] copying donkey_project/gi.py -> /home/jetson/donkey_ws/build/donkey_project/build/lib/donkey_project
+[4.179s] running install
+[4.182s] running install_lib
+[4.186s] copying /home/jetson/donkey_ws/build/donkey_project/build/lib/donkey_project/gi.py -> /home/jetson/donkey_ws/install/donkey_project/lib/python3.8/site-packages/donkey_project
+[4.188s] byte-compiling /home/jetson/donkey_ws/install/donkey_project/lib/python3.8/site-packages/donkey_project/gi.py to gi.cpython-38.pyc
+[4.189s] running install_data
+[4.192s] running install_egg_info
+[4.197s] removing '/home/jetson/donkey_ws/install/donkey_project/lib/python3.8/site-packages/donkey_project-0.0.0-py3.8.egg-info' (and everything under it)
+[4.198s] Copying ../../build/donkey_project/donkey_project.egg-info to /home/jetson/donkey_ws/install/donkey_project/lib/python3.8/site-packages/donkey_project-0.0.0-py3.8.egg-info
+[4.202s] running install_scripts
+[4.274s] Installing give_node script to /home/jetson/donkey_ws/install/donkey_project/lib/donkey_project
+[4.275s] writing list of installed files to '/home/jetson/donkey_ws/build/donkey_project/install.log'
+[4.375s] Invoked command in '/home/jetson/donkey_ws/src/donkey_project' returned '0': PYTHONPATH=/home/jetson/donkey_ws/build/donkey_project/prefix_override:/home/jetson/donkey_ws/install/donkey_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/donkey_project build --build-base /home/jetson/donkey_ws/build/donkey_project/build install --record /home/jetson/donkey_ws/build/donkey_project/install.log --install-scripts $base/lib/donkey_project --single-version-externally-managed

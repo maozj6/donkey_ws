@@ -1,0 +1,4 @@
+[console_scripts]
+give_node = donkey_project.gi:main
+pub_node = donkey_project.pub:main
+
